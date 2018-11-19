@@ -5,7 +5,7 @@ Website link: http://chess99901.atwebpages.com/
 
 A very simple Chess AI.
 
-The following chess programming techniques are uses:
+The following chess programming techniques are used:
 1) Move generation
 2) Board Evaluation
 3) Minimax
