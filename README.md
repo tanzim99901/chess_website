@@ -1,6 +1,8 @@
 Chess on a Website
 ----
 
+Website link: http://chess99901.atwebpages.com/
+
 A very simple Chess AI.
 
 The following chess programming techniques are uses:
