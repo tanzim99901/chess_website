@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="lib/chessboardjs/css/chessboard-0.3.0.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="board" class="board"></div>
+<div class="info">
+    Difficulty:
+    <select id="layers-of-search">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3" selected>3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+	<br>
+	<span></span>
+    <br>
+    <span>Evaluations: <span id="iteration-count"></span></span>
+	<br>
+	<span></span>
+    <br>
+    <span>Time: <span id="time"></span></span>
+	<br>
+	<span></span>
+    <br>
+    <span>Evaluations/s: <span id="iterations-per-s"></span> </span>
+	<br>
+	<span></span>
+    <br>
+    <br>
+</div>
+<div class="move-history1">
+	<span class="large-font">Move History</span>
+	<br>
+	<span class="move-history" id="move-history"></span>
+</div>
+<script src="lib/jquery/jquery-3.3.1.min.js"></script>
+<script src="lib/chessboardjs/js/chess.js"></script>
+<script src="lib/chessboardjs/js/chessboard-0.3.0.js"></script>
+<script src="core.js"></script>
+<script>
+
+</script>
+</body>
+</html>
