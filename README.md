@@ -14,7 +14,7 @@ The following chess programming techniques are used:
 Step - 1 : Move Generation
 ---
 
-The chess.js is used for move generation, while the chessboard.js library is used for the design of the chessboard. The move generation library basically implements all the rules of chess. Based on this, all legal moves for a given board state are calculated. Other than the libraries used for move generation and board visualization, the core javascript code focuses on using the algorithm that finds the best move. This step just return a random move from all of the possible moves. 
+The chess.js is used for move generation, whereas the chessboard.js library is used for the design of the chessboard. The move generation library basically implements all the rules of chess. Based on this, all legal moves for a given board state are calculated. Other than the libraries used for move generation and board visualization, the core javascript code focuses on using the algorithm that finds the best move. This step just return a random move from all of the possible moves. 
 
 Step - 2 Evaluation of position
 ---
